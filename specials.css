@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(226, 190, 190);
+    padding-top: 50px;
+}
+body h1 {
+color: rgb(0, 0, 0);
+background-color:rgb(226, 190, 190);
+text-align: center;
+font-style: italic;
+}
+ .flex-container{
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 50px;
+margin: 20px;
+}
+.singe-img {
+padding: 0px 20px 40px;
+
+}
+img:hover{
+opacity: 0.5;
+transition: 0.9s;
+}
