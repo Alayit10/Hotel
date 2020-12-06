@@ -1,27 +1,49 @@
-body{
-    background-color: rgb(226, 190, 190);
-    padding-top: 50px;
+body {
+  background-color: rgb(226, 190, 190);
+}
+.landing {
+  width: 100%;
+  float: right;
+  margin-bottom: 50px;
+  background-color: rgba(194, 67, 67, 0.541);
+}
+.landing ul li {
+  width: 120px;
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+}
+.landing ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.landing ul li :hover {
+  background-color: red;
+}
+.landing ul li a :hover {
+  color: green;
 }
 body h1 {
-color: rgb(0, 0, 0);
-background-color:rgb(226, 190, 190);
-text-align: center;
-font-style: italic;
+  color: rgb(0, 0, 0);
+  background-color: rgb(226, 190, 190);
+  text-align: center;
+  font-style: italic;
 }
- .flex-container{
-display:flex;
-flex-wrap: wrap;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-padding: 50px;
-margin: 20px;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
 }
 .singe-img {
-padding: 0px 20px 40px;
-
+  padding: 0px 20px 40px;
 }
-img:hover{
-opacity: 0.5;
-transition: 0.9s;
+img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
 }
